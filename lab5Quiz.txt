@@ -1,0 +1,7 @@
+Q1. The count value for myAnimal object will be 1. Since Pig() and Dog() are subclasses of the Animal class, 
+the main method cannot make direct pig and dog objects. Both myPig and myDog need to be downcasted. 
+By changing the last two objects to 
+Pig myPig = (Pig) myAnimal; 
+Dog myDog = (Dog) myAnimal;  
+Q2. Implementing “static” to the count variable 
+would give the same result as before. There would be no changes. 
